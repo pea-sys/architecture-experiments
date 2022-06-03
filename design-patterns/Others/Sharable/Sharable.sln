@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharable", "Sharable\Sharable.csproj", "{AAD0A184-E54E-4806-ACA3-A0FD375C52A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD0A184-E54E-4806-ACA3-A0FD375C52A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD0A184-E54E-4806-ACA3-A0FD375C52A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD0A184-E54E-4806-ACA3-A0FD375C52A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD0A184-E54E-4806-ACA3-A0FD375C52A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08D89FE0-F2A2-4CBA-A8A4-4D30173A63B5}
+	EndGlobalSection
+EndGlobal
