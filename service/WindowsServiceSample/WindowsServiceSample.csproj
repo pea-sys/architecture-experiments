@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-WindowsServiceSample-14e2d21d-1615-4ed7-8b09-2cdc415ad0d3</UserSecretsId>
+	<OutputType>exe</OutputType>
+	<PublishSingleFile Condition="'$(Configuration)' == 'Release'">true</PublishSingleFile>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	<PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="7.0.0" />
+  </ItemGroup>
+</Project>
