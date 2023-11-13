@@ -1,11 +1,10 @@
-# コードの複雑度を測定
-今回は社内都合でpipが使えないのでLizardは見送り  
-（パッケージマネージャーとしてのセキュリティ上の信頼性が低い）  
-また、VB.NETも解析できる必要がある。
+# SourceMonitorでコードの複雑度を測定
 
 ## SourceMonitor
+他の静的解析ツールにないメリット
 * VB.NETが扱える
-* 解析対象コンパイル環境構築不要なのも大きい
+* VB6が扱える
+* 解析対象コンパイル環境構築不要
 
 ### 入手先
 [SourceMonitor]  
@@ -24,9 +23,9 @@ SorceMonitorがクラッシュする
 ここではILSpyの解析を行う
 * 1. SorceMonitorのNewProjectを選択
 * 2. 解析する言語を選択
-* 3. 次へを選択
+* 3. 次へを選択  
 ![1](https://github.com/pea-sys/.net-performance-experiments/assets/49807271/1ca9bb98-b313-4679-87b8-540066a6877f)
-* 4. 解析結果記録ファイル名と解析対象ディレクトリを入力
+* 4. 解析結果記録ファイル名と解析対象ディレクトリを入力  
 ![2](https://github.com/pea-sys/.net-performance-experiments/assets/49807271/591f46fb-d01a-49f1-b2e9-79705fac606c)
 * 5. 何回か次へやOKを押すと解析が始まる
 * 6. 解析結果を見る  
